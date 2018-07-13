@@ -34,6 +34,6 @@ You can either Migrate the database into the connected datasource by running the
 
 Otherwise you can find a database sql dump file under `config/sql` directory.
 
-##Demo
+## Demo
 
 We've decided to add more features to this repository as well as update the existing codebase. A public demo is temporarily taken off. However a few Screenshots of the system are uploaded here: `https://goo.gl/DnrTRQ`
