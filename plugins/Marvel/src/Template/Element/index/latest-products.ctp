@@ -4,8 +4,8 @@
             <h3>Products</h3>
 
             <div class="row">
-            <?php
-               $count = 0;
+                <?php
+                $count = 0;
                 ?>
                 <?php foreach ($products as $product): ?>
                     <div class="product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -24,7 +24,7 @@
                             <div class="thumb-item-content">
                                 <h3><?php echo $this->Html->Link($product->title, ['action' => 'view', $product->id]); ?></h3>
                                 <p class="product-price">
-                                    <span><?= $currency_unit . " " . number_format($product->price, 2) ?></span>
+                                    <span><?= $currency_unit . " " . number_format((float)$product->price, 2) ?></span>
                                 </p>
                                 <button
                                     type="button"
@@ -39,8 +39,8 @@
 
                         </div>
                     </div>
-            <?php
-                   $count++;
+                    <?php
+                    $count++;
                     if ($count == 3) {
                         break;
                     }
@@ -58,14 +58,13 @@
                         var product = id + ',' + title + ',' + price + ',' + src;
 
 
-
                         $.ajax({
                             type: "POST",
                             data: {data: product},
                             url: "<?/*= Cake\Routing\Router::url(["prefix" => false, "controller" => "Products", "action" => "addToCart"]);*/?>",
                             success: function (data, textStatus, jqXHR) {
-                                $('#cartPrice').html(parseInt($('#cartPrice').html(),10) + price);
-                                $('#cartCount').html(parseInt($('#cartCount').html(),10) + 1);
+                                $('#cartPrice').html(parseInt($('#cartPrice').html(), 10) + price);
+                                $('#cartCount').html(parseInt($('#cartCount').html(), 10) + 1);
                             },
                             error: function (data, textStatus, jqXHR) {
                                 alert("Error: " + data + " status: " + textStatus + " jqXHR: " + jqXHR);

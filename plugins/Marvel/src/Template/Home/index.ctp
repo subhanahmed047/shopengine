@@ -1,16 +1,16 @@
 <?php
 
-echo $this->start('css');
+$this->start('css');
     echo $this->Html->css(['owl.carousel.css', 'owl.theme.css', 'owl.transition.css']);
-echo $this->end();
+$this->end();
 
-echo $this->start('script');
+$this->start('script');
     echo $this->Html->script(['owl.carousel.js']);
-echo $this->end();
+$this->end();
 
-echo $this->start('slider');
+$this->start('slider');
     echo $this->element('slider');
-echo $this->end();
+$this->end();
 echo $this->element('index/latest-products');
 ?>
 

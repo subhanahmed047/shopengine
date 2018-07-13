@@ -1,9 +1,12 @@
-<?= $this->assign('title', 'Update Page'); ?>
-<?= $this->start('css'); ?>
-<?= $this->Html->css(['form-builder', 'form-render']); ?>
-<?= $this->end(); ?>
+<?php
 
-<?= $this->Form->create($node, ['class' => 'form-horizontal ']) ?>
+$this->assign('title', 'Update Page');
+$this->start('css');
+echo $this->Html->css(['form-builder', 'form-render']);
+$this->end();
+
+echo $this->Form->create($node, ['class' => 'form-horizontal '])
+?>
 <div class="row">
     <div class="col-sm-12 col-md-12 col-xs-12">
         <div class="x_panel">

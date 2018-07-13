@@ -1,4 +1,4 @@
-<?= $this->assign('title', 'Admin | Shop Engine'); ?>
+<?php $this->assign('title', 'Admin | Shop Engine'); ?>
 
 <div class="row">
     <div class="col-md-12">

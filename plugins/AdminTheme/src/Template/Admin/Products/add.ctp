@@ -1,5 +1,3 @@
-<?php error_reporting(E_ALL ^ E_WARNING);  ?>
-
 <?= $this->Form->create($node, ['class' => 'form-horizontal form-label-left','type' => 'file']) ?>
 <div class="row">
     <div class="col-sm-12 col-md-12 col-xs-12">
@@ -83,7 +81,7 @@
                                     }else{
                                         $required = false;
                                     }
-                                    
+
                                     $content .= '<div class="form-group">
                                         <label class="control-label col-md-3 col-sm-3 col-xs-12" for="title"> '.$label.' '.$small_tag.'
                                         </label>

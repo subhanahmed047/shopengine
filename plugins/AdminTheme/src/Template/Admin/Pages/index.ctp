@@ -1,14 +1,16 @@
-<?= $this->start('css'); ?>
-<?= $this->Html->css([
+<?php
+$this->start('css');
+echo $this->Html->css([
     'https://cdn.datatables.net/1.10.12/css/dataTables.bootstrap.min.css'
-]); ?>
-<?= $this->end(); ?>
-<?= $this->start('script'); ?>
-<?= $this->Html->script([
+]);
+$this->end();
+$this->start('script');
+echo $this->Html->script([
     'https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js',
     'https://cdn.datatables.net/1.10.12/js/dataTables.bootstrap.min.js'
-]); ?>
-<?= $this->end(); ?>
+]);
+$this->end();
+?>
 
 <div class="row">
     <div class="col-md-12">

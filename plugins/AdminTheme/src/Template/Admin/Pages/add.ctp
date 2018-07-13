@@ -1,6 +1,9 @@
-<?= $this->assign('title', 'Add Page'); ?>
+<?php
 
-<?= $this->Form->create($node, ['class' => 'form-horizontal ']) ?>
+$this->assign('title', 'Add Page');
+echo $this->Form->create($node, ['class' => 'form-horizontal '])
+
+?>
 <div class="row">
     <div class="col-sm-12 col-md-12 col-xs-12">
         <div class="x_panel">
@@ -18,7 +21,7 @@
 
                     foreach ($fields as $field):
                         if (is_string($field)) {
-                            $no_display_fields_array = ['id', 'apps_id','image_dir', 'created', 'modified', 'lft', 'rght', 'parent_id'];
+                            $no_display_fields_array = ['id', 'apps_id', 'image_dir', 'created', 'modified', 'lft', 'rght', 'parent_id'];
                             if (in_array(strtolower($field), $no_display_fields_array)) {
                                 // do nothing
                             } else {
