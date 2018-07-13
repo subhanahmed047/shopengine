@@ -1,0 +1,9 @@
+{
+    "plugin":{
+        "name" : "ExportCsv",
+        "author" : "Faran Yahya",
+        "version" : "1.0",
+        "src" : "https://wpstorelocator.co/wp-content/uploads/edd/2015/12/csv-manager.gif",
+        "created" : ""
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "require": {
+        "cakedc/users": "^3.2",
+        "burzum/cakephp-user-tools": "~1.0",
+        "friendsofcake/cakephp-csvview": "~2.0"
+    }
+}

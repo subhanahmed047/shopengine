@@ -1,0 +1,58 @@
+2016-06-08 17:31:06 Error: [Cake\Core\Exception\MissingPluginException] Plugin CakeDC/Users could not be found.
+Exception Attributes: array (
+  'plugin' => 'CakeDC/Users',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\cp3workspace\shop\config\bootstrap.php(248): Cake\Core\Plugin::load('CakeDC/Users', Array)
+#1 C:\xampp\htdocs\cp3workspace\shop\bin\cake.php(31): include('C:\\xampp\\htdocs...')
+#2 {main}
+
+
+2016-06-09 08:52:28 Error: [Cake\Core\Exception\MissingPluginException] Plugin Burzum/UserTools could not be found.
+Exception Attributes: array (
+  'plugin' => 'Burzum/UserTools',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\cp3workspace\shop\vendor\cakephp\cakephp\src\Console\Shell.php(425): Cake\Core\Plugin::load('Burzum/UserTool...')
+#1 C:\xampp\htdocs\cp3workspace\shop\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(124): Cake\Console\Shell->runCommand(Array, true, Array)
+#2 C:\xampp\htdocs\cp3workspace\shop\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#3 C:\xampp\htdocs\cp3workspace\shop\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#4 C:\xampp\htdocs\cp3workspace\shop\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#5 C:\xampp\htdocs\cp3workspace\shop\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#6 {main}
+
+
+2016-06-09 08:52:56 Error: [Cake\Core\Exception\MissingPluginException] Plugin Burzum/UserTools could not be found.
+Exception Attributes: array (
+  'plugin' => 'Burzum/UserTools',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\cp3workspace\shop\vendor\cakephp\cakephp\src\Console\Shell.php(425): Cake\Core\Plugin::load('Burzum/UserTool...')
+#1 C:\xampp\htdocs\cp3workspace\shop\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(124): Cake\Console\Shell->runCommand(Array, true, Array)
+#2 C:\xampp\htdocs\cp3workspace\shop\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#3 C:\xampp\htdocs\cp3workspace\shop\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#4 C:\xampp\htdocs\cp3workspace\shop\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#5 C:\xampp\htdocs\cp3workspace\shop\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#6 {main}
+
+
+2016-06-16 08:28:56 Error: [Cake\Core\Exception\MissingPluginException] Plugin Cart could not be found.
+Exception Attributes: array (
+  'plugin' => 'Cart',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\cp3workspace\shop\config\bootstrap.php(242): Cake\Core\Plugin::load('Cart', Array)
+#1 C:\xampp\htdocs\cp3workspace\shop\bin\cake.php(31): include('C:\\xampp\\htdocs...')
+#2 {main}
+
+
+2016-06-16 08:29:31 Error: [Cake\Core\Exception\MissingPluginException] Plugin Cart could not be found.
+Exception Attributes: array (
+  'plugin' => 'Cart',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\cp3workspace\shop\config\bootstrap.php(242): Cake\Core\Plugin::load('Cart', Array)
+#1 C:\xampp\htdocs\cp3workspace\shop\bin\cake.php(31): include('C:\\xampp\\htdocs...')
+#2 {main}
+
+

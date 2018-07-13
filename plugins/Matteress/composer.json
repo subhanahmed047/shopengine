@@ -1,0 +1,23 @@
+{
+    "name": "your-name-here/Matteress",
+    "description": "Matteress plugin for CakePHP",
+    "type": "cakephp-plugin",
+    "require": {
+        "php": ">=5.4.16",
+        "cakephp/cakephp": "~3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Matteress\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Matteress\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}

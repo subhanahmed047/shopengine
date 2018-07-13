@@ -1,0 +1,11 @@
+{
+    "plugin":{
+        "name" : "IncCart",
+        "author" : "TeamIncredibles",
+        "version" : "1.0",
+        "src" : "http://www.prashantchauhan.com/wp-content/uploads/2015/08/e-commerce-banner.jpg",
+        "contact" : "hello@teamincredibles.com",
+        "support":"http://teamincredibles.com/shopengine",
+        "created" : ""
+    }
+}

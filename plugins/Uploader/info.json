@@ -1,0 +1,9 @@
+{
+    "plugin":{
+        "name" : "Uploader",
+        "author" : "Faran Yahya",
+        "version" : "",
+        "thumb" : "https://clipforms.com.au/clipforms-website/static/img/form-builder.png",
+        "created" : ""
+    }
+}
