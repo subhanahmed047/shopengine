@@ -58,8 +58,8 @@ Router::defaultRouteClass('DashedRoute');
         $routes->fallbacks('DashedRoute');
     });*/
 
-$datasource_json = ROOT . DS . "plugins" . DS . "Settings" . DS . "config" . DS . "datasource.json";
-$content = json_decode(file_get_contents($datasource_json), true);
+// $datasource_json = ROOT . DS . "plugins" . DS . "Settings" . DS . "config" . DS . "datasource.json";
+// $content = json_decode(file_get_contents($datasource_json), true);
 
 
 Router::prefix('admin', ['_namePrefix' => 'admin:'], function ($routes) {
