@@ -1,12 +1,12 @@
 {
     "name": "cakephp/app",
-    "description": "CakePHP skeleton app",
+    "description": "Shop Engine - A new way to run e-commerce",
     "homepage": "http://cakephp.org",
     "type": "project",
     "license": "MIT",
     "require": {
         "php": ">=5.5.9",
-        "cakephp/cakephp": "3.6.*",
+        "cakephp/cakephp": "3.7.*",
         "mobiledetect/mobiledetectlib": "2.*",
         "cakephp/migrations": "~1.0",
         "cakephp/plugin-installer": "*",
