@@ -63,7 +63,7 @@ use Cake\Network\Request;
 use Cake\Routing\DispatcherFactory;
 use Cake\Utility\Security;
 
-define('IS_PROD',(isset($_SERVER['SERVER_NAME']) && $_SERVER['SERVER_NAME'] == 'cubismedia.com') ? true : false); 
+define('IS_PROD',(isset($_SERVER['SERVER_NAME']) && $_SERVER['SERVER_NAME'] != 'localhost') ? true : false); 
 
 /**
  * Read configuration file and inject configuration into various
