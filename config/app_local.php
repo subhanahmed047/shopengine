@@ -2,8 +2,15 @@
 use Cake\Core\Exception\Exception;
 use Cake\Datasource\ConnectionManager;
 
-$datasource_json = ROOT . DS . "plugins" . DS . "Settings" . DS . "config" . DS . "datasource.json";
-$content = json_decode(file_get_contents($datasource_json), true);
+if (IS_PROD) {
+    $datasource_json = ROOT . DS . "plugins" . DS . "Settings" . DS . "config" . DS . "datasource-prod.json";
+    $content = json_decode(file_get_contents($datasource_json), true);
+} else {
+    $datasource_json = ROOT . DS . "plugins" . DS . "Settings" . DS . "config" . DS . "datasource-dev.json";
+    $content = json_decode(file_get_contents($datasource_json), true);
+}
+
+
 
 return [
     'Datasources' => [
