@@ -3,7 +3,6 @@
 /build
 /dist
 /tags
-/composer.lock
 /phpunit.xml
 /phpcs.xml
 /vendor
