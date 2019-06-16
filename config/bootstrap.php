@@ -194,10 +194,9 @@ Plugin::load('Migrations');
 
 // Only try to load DebugKit in development mode
 // Debug Kit should not be installed on a production system
-//if (Configure::read('debug')) {
-    Configure::write('DebugKit', ['forceEnable' => true]);
+if (Configure::read('debug') && !IS_PROD) {
     Plugin::load('DebugKit', ['bootstrap' => true]);
-//}
+}
 
 /**
  * Connect middleware/dispatcher filters.
